@@ -1,0 +1,127 @@
+ *{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+  }
+
+  .body1{
+height: 100%;
+width: fit-content;
+top: 0;
+background-image: url('background.jpg');
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: rgb(238, 229, 229);
+    text-decoration: none;
+    margin: 4px;
+  }
+  
+  .navbar {
+  max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  main {
+    
+    padding: auto;
+  }
+  
+  form {
+    border: 2px solid black ;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+    width: 30%;
+    margin-left: 470px;
+    background: transparent;
+    box-shadow:2px 2px 15px rgb(5 5 247), -2px -2px 15px rgb(50 2 86);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 300px;
+  }
+  input[type="text"]:hover,
+  input[type="password"]:hover{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0,0.2) ;
+  }
+  form:hover{
+    box-shadow: 7px 7px 21px rgb(75, 20, 165) , -7px -7px 21px rgb(28, 192, 167);
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 164px;;
+  }
+  
+  .search{
+    float: right;
+  padding: 6px;
+  margin-top: 12px;
+  border: none;
+  font-size: 17px;
+  }
+
+
+ 
+ 
